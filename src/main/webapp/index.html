@@ -1,38 +1,10 @@
 <html>
 <body>
-<h1>Using GET Method to Send Form Data</h1>
-<form action="table-view" method="GET">
-    First Name: <input type="text" name="first_name"> <br/>
-    Last Name: <input type="text" name="last_name"/> <!-- Начало - Обработка checkbox и radiobutton --> <br/>
-    <input type="radio" name="gender" value="Male" checked/>Male <br/>
-    <input type="radio" name="gender" value="Female"/>Female <br/>
-    <input type="checkbox" name="employee" checked="checked"/> Employee <br/>
-    <input type="checkbox" name="student"/> Student <br/>
-    <input type="checkbox" name="other"/> Other <br/>
-    <input type="submit" value="Submit"/>
-</form>
-<h1>Using POST Method to Send Form Data</h1>
-<form action="table-view" method="POST">
-    First Name: <input type="text" name="first_name"><br/>
-    Last Name: <input type="text" name="last_name"/><br/>
-    <input type="radio" name="gender" value="Male" checked/>Male <br/>
-    <input type="radio" name="gender" value="Female"/>Female <br/>
-    <input type="checkbox" name="employee" checked="checked"/> Employee <br/>
-    <input type="checkbox" name="student"/> Student <br/>
-    <input type="checkbox" name="other"/> Other <br/>
+<h1>Search users</h1>
+<form action="employees" method="GET">
+    Last Name: <input type="text" name="last_name"/>
     <input type="submit" value="Submit"/>
 </form>
 
-<h1>Welcome JSP</h1>
-<form action="welcome.jsp" method="POST">
-    First Name: <input type="text" name="first_name"> <br/>
-    Last Name: <input type="text" name="last_name"/><br/>
-    <input type="radio" name="gender" value="Male" checked/>Male <br/>
-    <input type="radio" name="gender" value="Female"/>Female <br/>
-    <input type="checkbox" name="employee" checked="checked"/> Employee <br/>
-    <input type="checkbox" name="student"/> Student <br/>
-    <input type="checkbox" name="other"/> Other <br/>
-    <input type="submit" value="Submit"/>
-</form>
 </body>
 </html>
